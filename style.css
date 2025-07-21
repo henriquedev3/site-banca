@@ -1,18 +1,34 @@
 @charset "UTF-8";
 
+:root {
+    --cor0: #2E2E2E;
+    --cor1: #E0E0E0;
+    --cor2: #0077B6;
+    --cor3: #121212;
+    --cor4: #D4AF37;
+
+}
 *{
-    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
+ /* cabeçalho do site  */
 
-body {
+ body{
+    background-color: #2E2E2E;
+ }
 
-    background-image: linear-gradient(to bottom,#383C3F,#36393E,#212226,#1D1E21,#17181C );
-    background-attachment: fixed;
-}
+ header{
+    background-image: linear-gradient(to top, #2E2E2E, #e0e0e08a);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+ }
+ div.logo {
+     background-position: center top;
+     background-repeat: no-repeat;
+     background-image: url(imagens/logo.png);
+     height: 100px;
+     max-height: 89px;
 
-img#logo{
-    height: 350px;
-    width: 750px;
-    image-s
-    
-}
+ }
